@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MJ Prompt-参考</title>
+<style>
+* {
+padding: 0;
+margin: 0 auto;
+}
+
+.nav {
+margin-bottom: 10px;
+}
+
+.nav button {
+margin: 10px 5px;
+width: 100px;
+font-size: 18px;
+}
+
+.main {
+/* margin: 20px; */
+column-count: 4;
+column-gap: 0;
+}
+
+@media screen and (max-width: 768px) {
+.main {
+column-count: 1;
+column-gap: 0;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+.main {
+column-count: 2;
+column-gap: 0;
+}
+
+}
+
+@media screen and (min-width: 992px) {
+.main {
+column-count: 3;
+column-gap: 0;
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+.main {
+column-count: 4;
+column-gap: 0;
+}
+}
+
+.content {
+margin: 5px;
+padding: 10px;
+vertical-align: top;
+break-inside: avoid;
+margin-bottom: 10px;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.Prompt-Example {
+width: 100%;
+}
+
+.Prompt-name {
+font-weight: bold;
+}
+
+span {
+display: inline-block;
+font-weight: bold;
+margin: 10px 0;
+}
+</style>
+</head>
+<body>
+<div class="nav">
+<button onclick="pages(24);">Ui设计</button>
+<button onclick="pages(25);">插画设计</button>
+<button onclick="pages(26);">工业设计</button>
+<button onclick="pages(30);">二次元</button>
+<button onclick="pages(31);">国风设计</button>
+<button onclick="pages(32);">动画人物</button>
+<button onclick="pages(33);">IP设计</button>
+<button onclick="pages(34);">国潮艺术</button>
+</div>
+<div class="main">
+</div>
+
+<script>
+function pages(id) {
+let main = document.querySelector('.main');
+let count=0;
+if (count==0)main.innerHTML = "";
+fetch('https://huihua.jiucyun.com/prod-api/huihua/description/getListByCatId?categoryId=' + id)
+.then(response => response.json())
+.then(data => {
+for (let i = 0; i < data.rows.length; i++) {
+main.innerHTML += `<div class="content">
+<div class="Prompt-name">模型名称：`+ data.rows[i].name + `</div>
+<div class="English-Prompt"><span>英文提示</span>：<br>`+ data.rows[i].enInstructions + `</div>
+<div class="Chinese-Prompt"><span>中文提示：</span><br>`+ data.rows[i].instructions + `</div>
+<p style=" font-weight: bold; margin-bottom: 10px;">展示图片：</p>
+<img class="Prompt-Example" src="`+ data.rows[i].effectShow + `" >
+</div>`}count=1
+})
+.catch(error => {
+console.error('Error:', error);
+});
+}
+
+</script>
+
+</body></html>
