@@ -2,11 +2,11 @@
 
 【SparkAi 公益免费版】：基于可商业化运营的 AI Web 系统，支持用户注册登录、会员套餐功能.....
 
-未编译源码暂不开源，公益免费版，授权版有更多的功能支持和快速更新迭代。
+公益免费版 未编译源码暂不开源，公益免费版比较授权版版本，授权版有更多的功能支持和快速更新迭代。
 
 此系统为SparkAi系统公益版本，无需授权即可快速部署使用！需要更多功能和稳定性能请购买官方授权版本！
 
-SparkAi创作系统是基于ChatGPT进行开发的Ai智能问答系统和Midjourney绘画系统，以及AI视频生成系统，支持OpenAI-GPT全模型+国内AI全模型。支持GPT-4o大模型、文档分析、识图图片理解、GPTs应用、GPT语音对话、联网提问、GPT-4全模型、DALL-E3文生图、GPT4-All联网搜索模型、思维导图、会员套餐功能、分销系统、Midjourney绘画动态全功能、AI换脸、垫图混图、插件功能等等！
+SparkAi创作系统是基于ChatGPT进行开发的Ai智能问答系统和Midjourney绘画系统，以及AI视频生成系统，支持OpenAI-GPT全模型+国内AI全模型。支持GPT-4o大模型、文档分析、识图图片理解、GPTs应用、GPT语音对话、联网提问、GPT-4全模型、DALL-E3文生图、GPT4-All联网搜索模型、思维导图、会员套餐功能、分销系统、Midjourney绘画动态全功能、AI换脸、垫图混图、插件功能等等！更多功能持续开发中~~
 
 ## 授权版官方演示站
 
@@ -21,56 +21,56 @@ SparkAi创作系统是基于ChatGPT进行开发的Ai智能问答系统和Midjour
 
 **AI模型支持**
 
-![AI模型](https://github.com/nosqlnull/chatgpt-midjourney-web-sparkai/public/demo-pic/aichat02.png)
+![AI模型](https://raw.githubusercontent.com/nosqlnull/chatgpt-midjourney-web-sparkai/main/public/demo-pic/aichat02.png)
+
+![AI模型](https://raw.githubusercontent.com/nosqlnull/chatgpt-midjourney-web-sparkai/main/public/demo-pic/aichat03.png)
 
 **应用广场**
 
-![应用广场](https://github.com/nosqlnull/chatgpt-midjourney-web-sparkai/public/demo-pic/app-store.png)
+![应用广场](https://raw.githubusercontent.com/nosqlnull/chatgpt-midjourney-web-sparkai/main/public/demo-pic/app-store.png)
 
-![应用广场](https://github.com/nosqlnull/chatgpt-midjourney-web-sparkai/public/demo-pic/app-store02.png)
+![应用广场](https://raw.githubusercontent.com/nosqlnull/chatgpt-midjourney-web-sparkai/main/public/demo-pic/app-store02.png)
 
 **AI绘画**
 
-![Midjourney绘画](https://github.com/nosqlnull/chatgpt-midjourney-web-sparkai/public/demo-pic/midjourney01.png)
+![Midjourney绘画](https://raw.githubusercontent.com/nosqlnull/chatgpt-midjourney-web-sparkai/main/public/demo-pic/midjourney01.png)
 
-![Midjourney绘画](https://github.com/nosqlnull/chatgpt-midjourney-web-sparkai/public/demo-pic/app-store02.png)
+![Midjourney绘画](https://raw.githubusercontent.com/nosqlnull/chatgpt-midjourney-web-sparkai/main/public/demo-pic/midjourney02.png)
 
-![Midjourney绘画](https://github.com/nosqlnull/chatgpt-midjourney-web-sparkai/public/demo-pic/app-store03.png)
+![Midjourney绘画](https://raw.githubusercontent.com/nosqlnull/chatgpt-midjourney-web-sparkai/main/public/demo-pic/midjourney03.png)
 
 **Midjourney局部编辑重绘**
 
-![Midjourney局部编辑重绘](https://github.com/nosqlnull/chatgpt-midjourney-web-sparkai/public/demo-pic/VaryRegion.png)
+![Midjourney局部编辑重绘](https://raw.githubusercontent.com/nosqlnull/chatgpt-midjourney-web-sparkai/main/public/demo-pic/VaryRegion.png)
 
 **绘画广场**
 
-![绘画广场](https://github.com/nosqlnull/chatgpt-midjourney-web-sparkai/public/demo-pic/market.png)
+![绘画广场](https://raw.githubusercontent.com/nosqlnull/chatgpt-midjourney-web-sparkai/main/public/demo-pic/market.png)
 
 **插件功能**
 
-![插件功能](https://github.com/nosqlnull/chatgpt-midjourney-web-sparkai/public/demo-pic/plug.png)
+![插件功能](https://raw.githubusercontent.com/nosqlnull/chatgpt-midjourney-web-sparkai/main/public/demo-pic/plug.png)
 
 **注册登录模块**
 
-![注册登录](https://github.com/nosqlnull/chatgpt-midjourney-web-sparkai/public/demo-pic/register.png)
+![注册登录](https://raw.githubusercontent.com/nosqlnull/chatgpt-midjourney-web-sparkai/main/public/demo-pic/register.png)
 
 **会员功能**
 
-![会员功能](https://github.com/nosqlnull/chatgpt-midjourney-web-sparkai/public/demo-pic/member.png)
+![会员功能](https://raw.githubusercontent.com/nosqlnull/chatgpt-midjourney-web-sparkai/main/public/demo-pic/member.png)
 
-![会员功能](https://github.com/nosqlnull/chatgpt-midjourney-web-sparkai/public/demo-pic/member2.png)
-
-![会员功能](https://github.com/nosqlnull/chatgpt-midjourney-web-sparkai/public/demo-pic/member3.png)
+![会员功能](https://raw.githubusercontent.com/nosqlnull/chatgpt-midjourney-web-sparkai/main/public/demo-pic/member02.png)
 
 **分销邀请**
 
-![分销邀请](https://github.com/nosqlnull/chatgpt-midjourney-web-sparkai/public/demo-pic/share.png)
+![分销邀请](https://raw.githubusercontent.com/nosqlnull/chatgpt-midjourney-web-sparkai/main/public/demo-pic/share.png)
 
 
 **后台管理**
 
-![后台管理](https://github.com/nosqlnull/chatgpt-midjourney-web-sparkai/public/demo-pic/admin.png)
+![后台管理](https://raw.githubusercontent.com/nosqlnull/chatgpt-midjourney-web-sparkai/main/public/demo-pic/admin.png)
 
-![用户管理](https://github.com/nosqlnull/chatgpt-midjourney-web-sparkai/public/demo-pic/admin2.png)
+![用户管理](https://raw.githubusercontent.com/nosqlnull/chatgpt-midjourney-web-sparkai/main/public/demo-pic/admin02.png)
 
 
 ## 系统更新日志
